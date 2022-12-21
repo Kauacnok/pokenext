@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { useParams } from 'react-router-dom'
 import { ArrowLeft, ArrowRight } from 'phosphor-react'
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
@@ -88,13 +86,14 @@ export async function getStaticPaths() {
     const maxPokemons = 120
     const api = `https://pokeapi.co/api/v2/pokemon/`
 
-    const res = await fetch(`${api}/?limit=${maxPokemons}`)
+    const res = await fetch(`${api}/?limit=${maxPokemons}&offset=1`)
 
     const data = await res.json()
 
     const paths = data.results.map((pokemon: pokemonProps, index: number) => {
+        const indexPokemon = index + 1
         return {
-            params: { pokemonId: index.toString() },
+            params: { pokemonId: indexPokemon.toString() },
         }
     })
 
