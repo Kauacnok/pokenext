@@ -41,9 +41,17 @@ Exemplo: <https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png>
 
 Feedbacks sempre são bem vindos :)
 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através do link abaixo:
+
+- [Acessar o site](https://pokenext-eta-lake.vercel.app)
+
 ## 📖 O que eu aprendi
 
 A ideia desse projeto era colocar um projeto em Next no meu repositório pessoal, aprendi next vendo a playlist do Matheus Battisti <https://www.youtube.com/playlist?list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft> ele também construiu um projeto com Pokenext nas aulas mas tentei construir um pouco diferente em vez de expor a lista de pokemons numa pagina inicial, tentei fazer um sistema de paginação que eu gostaria de aplicar em algum projeto.
+
+E por fim ao colocarmos nosso projeto no ar com o Github, fizemos deploy do projeto com o [Vercel](https://vercel.com/)
 
 ## 📝 License
 
