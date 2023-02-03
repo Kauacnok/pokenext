@@ -1,5 +1,5 @@
 <p align='center'> 
-	<h1 align='center'>Rpg Bears</h1>
+	<h1 align='center'>Pokenext</h1>
 </p>
 <p align='center'> 
 	<img src="https://media.discordapp.net/attachments/801935684846747679/1054524750304645140/image.png?width=314&height=418" alt="Imagem do pokemon Cartepie dentro do site">
@@ -36,6 +36,7 @@ O pokenext é um projeto para você ver um pokemon, seu tipo sua altura e peso v
 
 para coletar os dados dos pokemons usei a API do [PokéAPI](https://pokeapi.co/)
 e para as imagens dos pokemons usei a API do [Pokédex](https://www.pokemon.com/br/pokedex/)
+
 Exemplo: <https://pokeapi.co/api/v2/pokemon/1>
 Exemplo: <https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png>
 
