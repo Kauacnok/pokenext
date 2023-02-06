@@ -8,6 +8,11 @@ function Home() {
     return (
         <>
             <Head>
+                <meta name="title" content="PokeNext" />
+                <meta name="description" content="Conheça os 120 pokemons registrados no site" />
+                <meta name="keywords" content="Pokemon, Pokenext, 120 pokemons, site" />
+                <meta name="author" content="Kauã C. N." />
+                <meta property="og:image" content="https://i.imgur.com/u7Lt9h7.png" />
                 <title>PokeNext</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>

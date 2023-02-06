@@ -31,6 +31,11 @@ function pokemonCard({ pokemon }:pokemonProps) {
     return (
         <>
             <Head>
+                <meta name="title" content={`PokeNext - ${pokemon.name}`} />
+                <meta name="description" content={`Conheça o pokémon ${pokemon.name} seu(s) elemento(s) seu peso e altura`} />
+                <meta name="keywords" content={`Pokemon, Pokenext, 120 pokemons, site, Pokenext ${pokemon.name}`} />
+                <meta name="author" content="Kauã C. N." />
+                <meta property="og:image" content="https://i.imgur.com/u7Lt9h7.png" />
                 <title>PokeNext</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
