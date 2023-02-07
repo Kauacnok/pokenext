@@ -41,7 +41,7 @@ function pokemonCard({ pokemon }:pokemonProps) {
             </Head>
 
             <Header />
-            <main className="flex flex-col w-[100%] justify-center items-center">
+            <main className="flex flex-col w-[100%] mb-10 justify-center items-center">
                 <h1 className="mt-4 bg-gray-700 px-5 py-2 text-3xl text-center text-white capitalize mb-4">{pokemon.name}</h1>
                 <div className="border-2 border-gray-200 rounded mb-4">
                     <Image
