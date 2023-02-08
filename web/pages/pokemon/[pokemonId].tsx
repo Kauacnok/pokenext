@@ -32,8 +32,8 @@ function pokemonCard({ pokemon }:pokemonProps) {
     return (
         <>
             <Head>
-                <meta name="title" content={`PokeNext - ${pokemon.data.name}`} />
-                <meta name="description" content={`Conheça o pokémon ${pokemon.data.name} seu(s) elemento(s) seu peso e altura`} />
+                <meta name="title" content={`PokeNext - ${pokemon.data.name.charAt(0).toUpperCase() + pokemon.data.name.slice(1)}`} />
+                <meta name="description" content={`Conheça o pokémon ${pokemon.data.name.charAt(0).toUpperCase() + pokemon.data.name.slice(1)} seu(s) elemento(s) seu peso e altura`} />
                 <meta name="keywords" content={`Pokemon, Pokenext, 120 pokemons, site, Pokenext ${pokemon.data.name}`} />
                 <meta name="author" content="Kauã C. N." />
                 <meta property="og:image" content={pokemon.urlImage} />
